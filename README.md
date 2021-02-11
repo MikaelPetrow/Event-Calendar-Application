@@ -5,3 +5,4 @@ Includes:
 - Displaying events with info
 - Managing events
 - Managing user accounts
+- File upload
