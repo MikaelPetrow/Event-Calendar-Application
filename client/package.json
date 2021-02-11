@@ -1,0 +1,69 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "vue-cli-service serve --open"
+  },
+  "dependencies": {
+    "@fullcalendar/core": "^5.5.1",
+    "@fullcalendar/daygrid": "^5.5.0",
+    "@fullcalendar/interaction": "^5.5.0",
+    "@fullcalendar/resource-timeline": "^5.5.0",
+    "@fullcalendar/vue": "^5.5.0",
+    "ajax": "^0.0.4",
+    "core-js": "^3.6.2",
+    "cors": "^2.8.5",
+    "datatables.net-bs4": "^1.10.23",
+    "dotenv": "^8.2.0",
+    "jquery": "^3.5.1",
+    "mdbvue": "^6.7.2",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.11",
+    "vue-auth-href": "^1.1.1",
+    "vue-i18n": "^8.22.4",
+    "vue-moment": "^4.1.0",
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1",
+    "vuex-persistedstate": "^4.0.0-beta.2"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^2.0.0-beta.3",
+    "@kazupon/vue-i18n-loader": "^0.5.0",
+    "@vue/cli-plugin-babel": "~4.5.10",
+    "@vue/cli-plugin-eslint": "~4.5.10",
+    "@vue/cli-service": "~4.5.10",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.17.0",
+    "eslint-plugin-vue": "^7.4.1",
+    "vue-cli-plugin-i18n": "^1.0.1",
+    "vue-cli-plugin-mdb": "~2.1.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
