@@ -1,13 +1,7 @@
 {
-  "name": "calendar-application",
+  "name": "api",
   "version": "1.0.0",
   "main": "app.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "NODE_ENV=production node ./app.js",
-    "dev": "NODE_ENV=development node ./app.js",
-    "text": "NODE_ENV=test node ./app.js"
-  },
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
